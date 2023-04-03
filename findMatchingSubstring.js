@@ -4,7 +4,10 @@ The problem: given two strings, find the length of the longest matching substrin
 e.g, given strings "dogcatbirdfish" and "dogcatturtle", 
 the function should return 6 (length of the substring "dogcat")
 
-I'm sure I have done something like this before; the first thing that comes to mind is a brute force approach using nested loops.  For each i, compare string1[i] to string2[i] and keep track of how many times they match.  If a match isn't found, record the "maximum", wipe the count and begin again at [i+1]
+I'm sure I have done something like this before. 
+The first thing that comes to mind is a brute force approach using nested loops:  
+For each i, compare string1[i] to string2[i] and keep track of how many times they match.  
+If a match isn't found, record the "maximum", wipe the count and begin again at [i+1]
 
 */
 
@@ -27,7 +30,9 @@ let string2 = "dogcatturtle";
 
 /* Works for that, but I have a weird feeling that I'm forgetting something.
 
-And, indeed, it's okay if the match is at the start, but remember that I'm looking for a match ANYWHERE in the second string, which is why I need a nested loop.
+And, indeed, it's okay if the match is at the start, but remember: 
+I'm looking for a match ANYWHERE in the second string.
+Therefore, I need a nested loop.
 
 */
 
