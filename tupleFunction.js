@@ -79,9 +79,9 @@ testArr = [
 ];
 testMultiple = 2 * 5 * 8;
 
-testResult = tuple(testInput);
+const testResult = tuple(testInput);
 console.log(testResult.join("") == testArr.join(""));
-console.log(multiple(testArr, 2) == testMultiple);
+console.log(testResult.multiple(2) == testMultiple);
 
 /*  
 I wasn't able to get very far with this, because I kept screwing up.
@@ -106,7 +106,7 @@ them first.
 So it took me quite a lot longer than it should have, but I finally got there.
 However, I still haven't put a method on the tuple function.
 
-And since arrays are objects and can hold methods, it really is pretty simple (allegedly).
+And since arrays are objects and can hold methods, it really is pretty simple.
 
 All told, this took me twice as long as it should have.  But I learned something, at least.
 */
