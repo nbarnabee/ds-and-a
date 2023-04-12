@@ -36,3 +36,19 @@ let str1 = "calf";
 let str2 = "dog";
 let str3 = "anna";
 let str4 = "tacocat";
+
+/*  
+
+Thinking about this later, I realized two things:
+1. My solution was overly complicated.
+I could have simply reversed the entire string and compared the results.
+(My solution might be a little more performant, however, as I'm only dealing with half of the string.)
+
+2. I didn't take capitalization into account.
+
+*/
+
+function isPalindrome2(str) {
+  const revStr = str.toLowerCase().split("").reverse().join("");
+  return str.toLowerCase() == revStr;
+}
