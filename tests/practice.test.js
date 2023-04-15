@@ -1,4 +1,4 @@
-const { linearSearch, mergeSort } = require("./practice.js");
+const { linearSearch, mergeSort } = require("../practice.js");
 
 /* Testing linearSearch */
 
