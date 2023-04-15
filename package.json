@@ -1,0 +1,22 @@
+{
+  "name": "ds-and-a",
+  "version": "1.0.0",
+  "description": "A repo for DS&amp;A notes and practice problems, not necessarily algorithmic; some are just technical interview coding questions/challenges that I've been asked or have heard about.",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbarnabee/ds-and-a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbarnabee/ds-and-a/issues"
+  },
+  "homepage": "https://github.com/nbarnabee/ds-and-a#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
