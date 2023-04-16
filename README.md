@@ -1,6 +1,6 @@
 # ds-and-a (and friends!)
 
-A repo for DS&amp;A notes and practice problems, not necessarily algorithmic; some are just technical interview coding questions/challenges that I've been asked or have heard about.
+A repo for DS&amp;A notes and practice problems, not necessarily algorithmic; some are just technical interview coding questions/challenges that I've been asked or have heard about. I'm also throwing Leetcode solutions in there because why not.
 
 I'm also using this to practice writing tests in Jest.
 
