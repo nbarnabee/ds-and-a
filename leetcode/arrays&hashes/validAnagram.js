@@ -31,6 +31,11 @@ Then checks each letter to see if the # of appearances is the same.
 I could also include a check at the beginning to return false if the 
 strings aren't of equal length.
 
+Note that I haven't accounted for case, and it would be easier (but 
+less fun) to do it this way... 
+
+return s.split("").sort().join("") == t.split("").sort().join("");
+
 */
 
 const test1 = ["race", "care"];
